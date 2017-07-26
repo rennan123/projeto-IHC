@@ -1,0 +1,183 @@
+<?
+session_start( );
+if($_SESSION[validacao] =="1"){
+
+?>
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>H-CORE AUTOMA&Ccedil;&Atilde;O E TI</title>
+<meta name="viewport" content="">
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<meta http-equiv="Content-Language" content="pt-br">
+<meta name="viewport" content="height=device-height">
+</head>
+         
+<body>
+<div class="geral">
+<div id="header">
+<left><h1 class="cabecalho"><a href="http://pt-br.tinypic.com?ref=2eeforo" target="_blank"><img src="http://i61.tinypic.com/2eeforo.png" border="0" alt="Image and video hosting by TinyPic"></a> <font color="#ffffff">H-CORE AUTOMA&Ccedil;&Atilde;O E TI</font></h1><p class="cabecalho"><font color="#0000ff">Utilizando a tecnologia para a melhorar a seguran&ccedil;a, o conforto, a sa&uacute;de e a criatividade humana</font></p></left><br>
+</div>
+<br>
+<div id="sidebar">		
+			<center>
+			Anucio,fotos e similares
+			</center>
+		
+</div>
+<div  id="sidebar1">	
+			<center>
+			Anuncio,fotos e similares
+			</center>
+</div>
+
+<div id="content">
+<br>
+<center>
+<table class="tabela1">
+<th>STATUS SENSORES  <a href="http:relatorio.php">(atualizar)</a><br></th>
+<tr><td> 
+	<ul style="list-style-type:none">
+<?php
+	require("leitura.php");	
+	
+	$temperatura = $leitura["temp"];
+        $umidade_ar = $leitura["umid_ar"];
+        $umidade_solo = $leitura["solo"];
+        $vaga = $leitura["vaga"];
+        $movimentacao = $leitura["movi"];        
+        $alarme = $leitura["alarm"];
+        $luz = $leitura["luze"];
+        $tempo = $leitura["chuv"];    
+        $energia = $leitura["energ"];  
+        $abertura_porta = $leitura["abert_porta"];
+	$acionamento = $leitura["acion"];
+	$campanhia  = $leitura["camp"];
+	$gases = $leitura["gases"];
+	$fumaca = $leitura["fumaca"];
+	$potencia_gasta=$leitura["potencia_gasta"];
+
+	echo "<li><b>Temperatura atual: ";
+        echo $temperatura;
+        echo " *C</b></li><br>";
+	echo "<li><b>Umidade do ar: ";
+        echo $umidade_ar;
+	echo " %";
+        echo "</b></li><br>";
+	echo "<li><b>Gases: ";
+	echo $gases;
+	echo " %";
+	echo "</b></li></br>";
+	echo "<li><b>Umidade do solo: "; 
+        echo $umidade_solo;
+	echo " %";
+        echo "</b></li><br>";
+	echo "<li><b>Estado da vaga: ";
+        echo $vaga;
+        echo "</b></li><br>";
+	echo "<li><b>Movimenta&ccedil;&atilde;o: "; 
+        echo $movimentacao;
+        echo "</b></li></br>";
+	echo "<li><b>Status alarme: ";
+        echo $alarme;
+        echo "</b></li></br>";
+	echo "<li><b>Luminosidade: ";
+        echo $luz;
+        echo "</b></li></br>";
+	echo "<li><b>Tempo: "; 
+        echo $tempo;
+        echo "</b></li></br>";
+	echo "<li><b>Status uso eletric.: ";
+        echo $energia;
+        echo "</b></li></br>";
+	echo "<li><b>Abertura de portas: ";
+        echo $abertura_porta;
+        echo"</b></li><br>";	
+	echo "<li><b>Energia gasta (W): ";
+	echo $potencia_gasta;
+        echo"</b></li>";		
+			
+	 if($campanhia == '1')
+	 {
+	  echo "<SCRIPT LANGUAGE=\"JavaScript\" TYPE=\"text/javascript\">alert (\"Campanhia tocou, alguem na porta!\")</SCRIPT>";
+	 }
+	 if($acionamento =='1')
+	 {
+	  echo "<SCRIPT LANGUAGE=\"JavaScript\" TYPE=\"text/javascript\">alert (\"ALARME DISPAROU, VERIFIQUE!\")</SCRIPT>";
+	 }
+	 if($fumaca =='1')
+	 {
+	  echo "<SCRIPT LANGUAGE=\"JavaScript\" TYPE=\"text/javascript\">alert (\"NIVEIS DE GASES ALTOS, PERIGO!\")</SCRIPT>";
+	 }
+?>
+</ul>
+</td></tr></table>
+<br><br>
+<table class="tabela1">
+<tr><td><center>
+<br>
+<input class ="input1" type=button onClick="location.href='controle.php'"value="Controles">
+</center><br></td>
+<td><center>
+<br>
+<input class ="input1" type=button onClick="location.href='graficos.php'" value="Graficos">
+</center>
+<br>
+</td></tr>
+</table>
+</center>
+<br>
+<hr width=50%>
+<br>
+</div>
+<br>
+
+<div id="rodape">
+<br>
+<hr width=50%>
+<center>
+<marquee direction="left" scrollamount="2" width="640" height="130" behavior="scroll" onmouseover="this.stop()" onmouseout="this.start()">
+ 
+	<a href="http://www.gerenciandoblog.com.br/2010/01/skribit-como-utiliza-lo-melhor.html" target="_blank">
+	<img src="http://lh4.ggpht.com/_XibsBbZTGuE/S2DrlUI20MI/AAAAAAAABzw/37WBMgd4CgE/Skribit200_thumb[4][1]_thumb.png" title="Skribit: Como 		Utilizá-lo Melhor" height="130" width="130"/>
+	</a>
+
+	<a href="http://www.gerenciandoblog.com.br/2010/02/google-apps-e-mail-gratis-para-seu.html" target="_blank">
+	<img src="http://lh4.ggpht.com/_XibsBbZTGuE/S23jVFAqV6I/AAAAAAAAB2A/qvIK-ytVMeM/email_thumb3.jpg" title="Google Apps: E-mail Grátis 		para seu Domínio" height="130" width="130"/>
+	</a> 
+
+	<a href="http://www.gerenciandoblog.com.br/2010/01/skribit-como-utiliza-lo-melhor.html" target="_blank">
+	<img src="http://lh4.ggpht.com/_XibsBbZTGuE/S2DrlUI20MI/AAAAAAAABzw/37WBMgd4CgE/Skribit200_thumb[4][1]_thumb.png" title="Skribit: Como 		Utilizá-lo Melhor" height="130" width="130"/>
+	</a>
+
+	<a href="http://www.gerenciandoblog.com.br/2010/02/google-apps-e-mail-gratis-para-seu.html" target="_blank">
+	<img src="http://lh4.ggpht.com/_XibsBbZTGuE/S23jVFAqV6I/AAAAAAAAB2A/qvIK-ytVMeM/email_thumb3.jpg" title="Google Apps: E-mail Grátis 		para seu Domínio" height="130" width="130"/>
+	</a>
+ 
+	<a href="http://www.gerenciandoblog.com.br/2010/01/skribit-como-utiliza-lo-melhor.html" target="_blank">
+	<img src="http://lh4.ggpht.com/_XibsBbZTGuE/S2DrlUI20MI/AAAAAAAABzw/37WBMgd4CgE/Skribit200_thumb[4][1]_thumb.png" title="Skribit: Como 		Utilizá-lo Melhor" height="130" width="130"/>
+	</a>
+ 
+</marquee>
+
+<hr width=50%>	
+
+<img src="http://i61.tinypic.com/2eeforo.png" border="0" alt="Image and video hosting by TinyPic"><img width="150px" height="80px" src="http://i61.tinypic.com/2ryiudl.jpg" border="0" alt="Image and video hosting by TinyPic"> <img width="150px" height="80px" src="http://i60.tinypic.com/2e3bhjb.jpg" border="0" alt="Image and video hosting by TinyPic"> <img width="80px" height="80px" src="http://i59.tinypic.com/j90y34.png" border="0" alt="Image and video hosting by TinyPic">
+
+</center>
+
+<footer><font size = 1><center>Desenvolvido por: Miller C&eacute;sar de Oliveira, H-CORE solu&ccedil;&otilde;es em tecnologia de automa&ccedil;&atilde;o e TI 2015, contato <a href="mailto:miller00315@gmail.com">miller00315@gmail.com</a></center></font></footer>
+</div>
+</div>
+</body>
+<meta HTTP-EQUIV='refresh' CONTENT='10'>
+</html>
+
+<?
+}
+else
+{
+	echo "<SCRIPT LANGUAGE=\"JavaScript\" TYPE=\"text/javascript\">alert (\"USUARIO INVALIDO!\");window.location.href='index.html';</SCRIPT>";
+}
+?>

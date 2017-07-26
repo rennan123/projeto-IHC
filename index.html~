@@ -1,0 +1,100 @@
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>H-CORE AUTOMA&Ccedil;&Atilde;O E TI</title>
+
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<meta http-equiv="Content-Language" content="pt-br">
+<meta name="viewport" content="height=device-height">
+</head>
+         
+<body>
+<div class="geral">
+<div id="header">
+<left><h1 class="cabecalho"><a href="http://pt-br.tinypic.com?ref=2eeforo" target="_blank"><img src="http://i61.tinypic.com/2eeforo.png" border="0" alt="Image and video hosting by TinyPic"></a> <font color="#ffffff">H-CORE AUTOMA&Ccedil;&Atilde;O E TI</font></h1><p class="cabecalho"><font color="#0000ff">Utilizando a tecnologia para a melhorar a seguran&ccedil;a, o conforto, a sa&uacute;de e a criatividade humana</font></p></left><br>
+</div>
+<br>
+<div id="sidebar">
+		<div>	
+			<center>
+			Anucios,fotos e similares
+			<br>
+			<br>
+			</center>
+		</div>
+</div>
+<div id="sidebar1">
+			<center>
+			Anucios,fotos e similares
+			<br>
+			<br>
+			</center>
+	</div>
+<div id="content">
+<br>
+
+<center><table class="tabela">
+
+<center>
+<h2 class="t">BEM-VINDO</h2>
+<form method="POST" action="login.php">
+<br>
+<h3 class="t">Usuar.: <input class="input4" type="text" name="login" maxlength=10></h3>
+<br><br>
+<h3 class="t">Senha: <input class="input4" type="password" name="senha" maxlength=10></h3>
+<br><br>
+<b><input  type="submit" value="ENTRAR"></b><br>
+</form>
+<br>
+
+<hr width=50%>	
+
+</center>
+</table>
+</div>
+<ul>
+<li>N&atilde;o compartilhe sua senha;</li>
+<li>N&atilde;o salve a senha como padr&atilde;o;</li>
+<li>N&atilde;o acesse o sistema de redes inseguras;</li> 
+</ul>
+<div id="rodape">
+<br>
+<hr width=50%>
+<center>
+<marquee direction="left" scrollamount="2" width="640" height="130" behavior="scroll" onmouseover="this.stop()" onmouseout="this.start()">
+ 
+	<a href="http://www.gerenciandoblog.com.br/2010/01/skribit-como-utiliza-lo-melhor.html" target="_blank">
+	<img src="http://lh4.ggpht.com/_XibsBbZTGuE/S2DrlUI20MI/AAAAAAAABzw/37WBMgd4CgE/Skribit200_thumb[4][1]_thumb.png" title="Skribit: Como 		Utilizá-lo Melhor" height="130" width="130"/>
+	</a>
+
+	<a href="http://www.gerenciandoblog.com.br/2010/02/google-apps-e-mail-gratis-para-seu.html" target="_blank">
+	<img src="http://lh4.ggpht.com/_XibsBbZTGuE/S23jVFAqV6I/AAAAAAAAB2A/qvIK-ytVMeM/email_thumb3.jpg" title="Google Apps: E-mail Grátis 		para seu Domínio" height="130" width="130"/>
+	</a> 
+
+	<a href="http://www.gerenciandoblog.com.br/2010/01/skribit-como-utiliza-lo-melhor.html" target="_blank">
+	<img src="http://lh4.ggpht.com/_XibsBbZTGuE/S2DrlUI20MI/AAAAAAAABzw/37WBMgd4CgE/Skribit200_thumb[4][1]_thumb.png" title="Skribit: Como 		Utilizá-lo Melhor" height="130" width="130"/>
+	</a>
+
+	<a href="http://www.gerenciandoblog.com.br/2010/02/google-apps-e-mail-gratis-para-seu.html" target="_blank">
+	<img src="http://lh4.ggpht.com/_XibsBbZTGuE/S23jVFAqV6I/AAAAAAAAB2A/qvIK-ytVMeM/email_thumb3.jpg" title="Google Apps: E-mail Grátis 		para seu Domínio" height="130" width="130"/>
+	</a>
+ 
+	<a href="http://www.gerenciandoblog.com.br/2010/01/skribit-como-utiliza-lo-melhor.html" target="_blank">
+	<img src="http://lh4.ggpht.com/_XibsBbZTGuE/S2DrlUI20MI/AAAAAAAABzw/37WBMgd4CgE/Skribit200_thumb[4][1]_thumb.png" title="Skribit: Como 		Utilizá-lo Melhor" height="130" width="130"/>
+	</a>
+ 
+</marquee>
+
+<hr width=50%>	
+
+<img src="http://i61.tinypic.com/2eeforo.png" border="0" alt="Image and video hosting by TinyPic"><img width="150px" height="80px" src="http://i61.tinypic.com/2ryiudl.jpg" border="0" alt="Image and video hosting by TinyPic"> <img width="150px" height="80px" src="http://i60.tinypic.com/2e3bhjb.jpg" border="0" alt="Image and video hosting by TinyPic"> <img width="80px" height="80px" src="http://i59.tinypic.com/j90y34.png" border="0" alt="Image and video hosting by TinyPic">
+
+</center>
+
+<center><footer><font size = 1><center>Desenvolvido por: Miller C&eacute;sar de Oliveira, H-CORE solu&ccedil;&otilde;es em tecnologia de automa&ccedil;&atilde;o e TI 2015, contato <a href="mailto:miller00315@gmail.com">miller00315@gmail.com</a></center></font></footer></center>
+</div>
+</body>
+</html>
+

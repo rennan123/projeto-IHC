@@ -1,0 +1,48 @@
+<?php
+$port=fopen("/dev/ttyACM0","r+b");
+sleep(1);
+fwrite($port,'q');
+
+sleep(1);
+$temp=fgets($port);
+
+$temperatura = substr($temp, 0, 2);//variavel para verificar temperatura
+
+$umid_ar = substr($temp, 2, 2);//variavel para verificar umidade do ar
+
+$umid_solo = substr($temp, 4, 2);//variavel para verificar umidade do solo
+
+$vag = substr($temp, 6, 7);//variavel para verificar a vaga
+
+$movi = substr($temp,13,7);//variavel para oa detecção de movimento
+
+$alarm = substr($temp,20,7);//variavel para a verificação do funcionamento do alarme
+ 
+$luze = substr($temp,27,5);//variavel para as luzes
+
+$chuv = substr($temp,32,9);//variavel detectar chuva
+
+$energ = substr($temp,41,14);//variavel para detectar energia
+
+$abert_porta = substr($temp,55,6);//variavel para abertura de porta
+
+$acion = substr($temp,61,1);//variavel para verificaçã do acionamento do alarme
+
+$camp  = substr($temp,62,1);//variavel para avisar se alguém acionou a campanhia
+
+$gases = substr($temp,63,3);//variavel para verificar o nivel dos gases
+
+$fumaca = substr($temp,66,1);//variavel para avisar se há gases em demasia
+
+sleep(1);
+/*
+fwrite($port,'r');
+
+sleep(1);
+$temp1=fgets($port);
+*/	
+$leitura =array("temp"=>$temperatura,"umid_ar"=>$umid_ar,"solo"=>$umid_solo,"vaga"=>$vag,"movi"=>$movi,"alarm"=>$alarm,"luze"=>$luze,"chuv"=>$chuv,"energ"=>$energ,"abert_porta"=>$abert_porta,"acion"=>$acion,"camp"=>$camp,"gases"=>$gases,"fumaca"=>$fumaca,/*"potencia_gasta"=>$temp1*/);
+
+fclose($port);
+?>
+

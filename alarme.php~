@@ -1,0 +1,15 @@
+<?php
+  $port = fopen('/dev/ttyACM0', 'w');
+	
+	$shora = $_POST['hora'];
+	$sminuto = $_POST['minuto'];
+	$sequip = $_POST['equip'];
+
+	$temp ='p'.$shora.$sminuto.$sequip.'#';
+	
+	fwrite($port,$temp);
+
+ fclose($port);
+echo "<meta http-equiv=\"refresh\" content=\"0; url=index.php\">";
+
+?>

@@ -1,0 +1,359 @@
+.input  {
+  width: 100%;  
+  height: 50px;  
+  background: #3498db;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  font-weight: bold;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+
+
+.red
+{
+  background-color:#ff3300;
+}
+
+.green
+{
+  color:#00ff00;
+}
+
+.blue
+{
+  background-color:#9fb8d2;
+}
+
+#titulo{
+  font-size: 30px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal Arial, Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-shadow: 4px 4px 6px rgba(0,150,255,0.91) ;
+}
+
+#subtitulo{
+  font-size: 15px;
+  color: rgb(255, 255, 255)
+}
+
+.t
+{
+  color:#ffffff;
+}
+
+.input:hover
+{
+  width: 100%;  
+  height: 50px;  
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #bebebe, #778899);
+  background-image: -moz-linear-gradient(top, #bebebe, #778899);
+  background-image: -ms-linear-gradient(top, #bebebe, #778899);
+  background-image: -o-linear-gradient(top, #bebebe, #778899);
+  background-image: linear-gradient(to bottom, #bebebe, #778899);
+  text-decoration: none;
+}
+
+.input1
+{
+  width: 90%;  
+  height: 50px;  
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #778899, #708090);
+  background-image: -moz-linear-gradient(top, #778899, #708090);
+  background-image: -ms-linear-gradient(top, #778899, #708090);
+  background-image: -o-linear-gradient(top, #778899, #708090);
+  background-image: linear-gradient(to bottom, #778899, #708090);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  font-weight: bold;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.input1:hover
+{
+  width: 90%;  
+  height: 50px;  
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #bebebe, #778899);
+  background-image: -moz-linear-gradient(top, #bebebe, #778899);
+  background-image: -ms-linear-gradient(top, #bebebe, #778899);
+  background-image: -o-linear-gradient(top, #bebebe, #778899);
+  background-image: linear-gradient(to bottom, #bebebe, #778899);
+  text-decoration: none;
+}
+select
+{
+  width: 150px;  
+  height: 50px;
+  font-weight:bold;  
+  background: #bdbdbd;
+  font-family: Courier New;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+select:hover
+{
+  width: 150px;  
+  height: 50px;  
+  background: #bdbdbd;
+  text-decoration: none;
+}
+
+html, body {
+  background-image: url(gradient.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.geral{
+  min-heght:100%;
+  position:relative; 	
+
+}
+
+table { 
+  border:1px solid #000000;
+}
+
+table tr td { 
+  border:0;
+}
+
+.input2{
+  width: 20px;
+  height:20px;
+}
+
+.input3{
+  width:50px;
+  background:#EFF2FB;
+  font-weight:bold;
+}
+
+.input4{
+  object-position: center;
+  width:49%;
+}
+.input4:hover{
+  width:49%;
+}
+.cabecalho{
+  font-family: 'Orbitron', sans-serif;
+  top: 0px;	
+  left:20px;
+  width: 100%;
+  margin:0px;
+  position: relative;
+  color: #ffffff;
+  margin-top: 0%;
+  margin-left:0%;
+  margin-right:0%;	
+  padding-top: 2%;
+
+}
+.tabela{
+  width:91%;
+  background:#d3d3d3;
+  border:0;
+  max-width:90%;
+  -moz-border-radius:7px;
+  -webkit-border-radius:7px;
+  border-radius:7px;
+}
+
+.tabela1{
+  width:91%;
+  background:#d3d3d3;
+  border:0;
+  box-shadow: 5px 5px 10px 5px #000000;
+  max-width:90%;
+  -moz-border-radius:7px;
+  -webkit-border-radius:7px;
+  border-radius:7px;
+}
+
+th{	
+  color:#0B0B3B;
+}
+
+h4{
+  color:#0000ff;
+}
+
+li{
+  align-content: center;
+  list-style-type: none;
+  color:#ffffff;
+}
+
+
+#header{
+  width:100%;
+  background:rgba(255, 242, 242, 0.44);
+  height:18%;
+  margin-top:0%;
+  margin-left:0%;
+  margin-right:0%;
+  text-align: center;
+}
+
+link{
+
+  color:#ffffff;
+}
+
+#sidebar{
+  /* Largura */
+  width:25%;
+  height:60%;
+  /* Alinha à esquerda */
+  float:left;
+  background:#0000ff;
+}
+
+#sidebar1{
+  /* Largura */
+  width:24%;
+  height:60%;
+  /* Alinha à direita */
+  float:right;
+  background:#0000ff;
+}
+
+#content{
+  background: rgba(255, 255, 255, 0.56);
+  /* Largura */
+  width:50%;
+  height:60%;
+  margin-top: 6%;
+  margin-left:25.5%;
+  margin-right:25.5%;
+  -moz-border-radius:7px;
+  -webkit-border-radius:7px;
+  border-radius:7px;
+}
+
+#rodape{
+  width:100%;
+  bottom:0;
+  color: #ffffff;
+}
+
+#rodape2{
+  background: rgba(234, 234, 255, 0.78);
+}
+
+#pRodape{
+  font-size: 12px;
+}
+
+img {
+  max-width:90%;
+  max-height:90%;
+  -moz-border-radius:7px;
+  -webkit-border-radius:7px;
+  border-radius:7px;
+}
+
+iframe{
+  max-width:90%;
+  max-height:90%;
+}
+.footer{
+  background:#d8d8d8;	
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+*{
+  font-family: calibri;
+}
+.box{
+  background:#ffffff;
+  margin:0px auto;
+  width: 90%;
+}
+.box-chart{
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+a:link{
+  text-decoration:none;
+}
+
+select{
+  width: 110px;
+  font-size: 15px;
+}
+
+/* Tooltip container */
+.tooltip {
+  color: white;
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white; /* Sublinhado ponteado */
+}
+
+/* Texto do tooltip */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 270px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Posiciona o texto do tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+/* Seta do tooltip */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Exibe o tooltip quando passa o mouse sobre*/
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}

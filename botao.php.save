@@ -1,0 +1,89 @@
+<?php
+
+$port = fopen("/dev/ttyACM0", "w");
+	
+	if ($_POST['estado']=="0000")
+	{
+		
+		fwrite($port, "o");
+	}
+	if ($_POST['estado']=="0001")
+	{
+	
+		fwrite($port, "a");
+	}
+	if ($_POST['estado']=="0010")
+	{
+	
+		fwrite($port, "b");
+	}
+ 
+	if ($_POST['estado']=="0011")
+	{
+	fwrite($port, "c");
+	}
+
+	if ($_POST['estado']=="0100")
+	{
+		echo "Tomada 2";
+		fwrite($port, "d");
+	}
+	if ($_POST['estado']=="0101")
+	{
+		echo "Tomada 3";
+		fwrite($port, "e");
+	}
+	if ($_POST['estado']=="0110")
+	{
+		echo "Tomada 4";
+		fwrite($port, "f");
+	}
+ 
+	if ($_POST['estado']=="0111")
+	{
+		echo "Comando Voz";
+		fwrite($port, "g");
+	}
+
+	if ($_POST['estado']=="1000")
+	{
+		echo "TV";
+		fwrite($port, "h");
+	}	
+	if ($_POST['estado']=="1001")
+	{
+		echo "Canal+";
+		fwrite($port, "i");
+	}
+	if ($_POST['estado']=="1010")
+	{
+		echo "Volume+";
+		fwrite($port, "j");
+	}
+ 
+	if ($_POST['estado']=="1011")
+	{
+		echo "Canal-";
+		fwrite($port, "k");
+	}
+
+	if ($_POST['estado']=="1100")
+	{
+		echo "Volume-";
+		fwrite($port, "l");
+	}
+	if ($_POST['estado']=="1101")
+	{
+		echo "Portao";
+		fwrite($port, "m");
+	}	
+	if ($_POST['estado']=="1110")
+	{
+		echo "Alarme";
+		fwrite($port, "n");
+	}
+	
+echo "<meta http-equiv=\"refresh\" content=\"0; url=http://localhost\">";
+//Fecha a porta serial
+fclose($port);
+?>
