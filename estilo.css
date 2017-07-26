@@ -121,10 +121,10 @@ select:hover
 }
 
 html, body {
-  background-image: url(http://www.highreshdwallpapers.com/wp-content/uploads/2013/10/Open-Field-Wallpaper.jpg);
+  background-image: url(http://energiainteligenteufjf.com/wp-content/uploads/2016/12/internet-das-coisas-iot.jpg);
   background-attachment: fixed;
   background-size: cover;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
 }
 
 .geral{
@@ -241,7 +241,7 @@ link{
 }
 
 #content{
-  background: rgba(36, 36, 41, 0.6);
+  background: rgba(36, 36, 41, 0.95);
   /* Largura */
   width:50%;
   height:60%;
@@ -260,7 +260,7 @@ link{
 }
 
 #pRodape{
-  font-size: 12px;
+  font-size: 16px;
 }
 
 img {

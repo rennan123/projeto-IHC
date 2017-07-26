@@ -46,6 +46,7 @@ if($_SESSION[validacao] =="1"){
          
       <div id="content">
         <br>
+        <br>
 
         <center><table class="tabela">
           <thead><th>Lâmpada</th><th>Tomada</th></thead>
@@ -111,7 +112,7 @@ if($_SESSION[validacao] =="1"){
 
     <center><table class="tabela">
 
-      <thead><th>CONTROLE</th><th>ELETRODOM.</th></thead> 
+      <thead><th>Controle</th><th>Eletrodoméstico</th></thead> 
 
       <tr><td><center>	 
         <form method="POST" action="botao.php">
@@ -187,8 +188,12 @@ if($_SESSION[validacao] =="1"){
   </table>
   </center>
 <br>
+<br>
 </div>
-
+<br>
+<br>
+<br>
+<br>
 <br>
 </div>
 
@@ -198,15 +203,8 @@ if($_SESSION[validacao] =="1"){
     <img src="http://i61.tinypic.com/2eeforo.png" border="0" alt="Image and video hosting by TinyPic"><img width="150px" height="80px" src="http://i61.tinypic.com/2ryiudl.jpg" border="0" alt="Image and video hosting by TinyPic"> <img width="150px" height="80px" src="http://i60.tinypic.com/2e3bhjb.jpg" border="0" alt="Image and video hosting by TinyPic"> <img width="80px" height="80px" src="http://i59.tinypic.com/j90y34.png" border="0" alt="Image and video hosting by TinyPic">
 
   </center>
-
-  <footer><font size = 1><center>Desenvolvido por: Pelos membros do grupo: Paulo, Rennan, Otavio e Miller.</center></font></footer>
+  <br>
+  <footer id="pRodape"><center>Desenvolvido com <span id="s2">❤</span> por Rennan, Miller, Paulo e Otavio.</center></footer>
 </div>
 </body>
 </html>
-<?
-}
-else
-{
-echo "<SCRIPT LANGUAGE=\"JavaScript\" TYPE=\"text/javascript\">alert (\"USUARIO INVALIDO!\");window.location.href='index.html';</SCRIPT>";
-}
-?>

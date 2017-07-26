@@ -1,19 +1,17 @@
 .input  {
   width: 100%;  
   height: 50px;  
-  background: #3498db;
+  background: #424242;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
   font-family: Courier New;
   font-weight: bold;
-  color: #000000;
+  color: #FFFFFF;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
-
-
 
 .red
 {
@@ -57,12 +55,12 @@
 {
   width: 100%;  
   height: 50px;  
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #bebebe, #778899);
+  background: #757575;
+  /*background-image: -webkit-linear-gradient(top, #bebebe, #778899);
   background-image: -moz-linear-gradient(top, #bebebe, #778899);
   background-image: -ms-linear-gradient(top, #bebebe, #778899);
   background-image: -o-linear-gradient(top, #bebebe, #778899);
-  background-image: linear-gradient(to bottom, #bebebe, #778899);
+  background-image: linear-gradient(to bottom, #bebebe, #778899);*/
   text-decoration: none;
 }
 
@@ -70,12 +68,12 @@
 {
   width: 90%;  
   height: 50px;  
-  background: #3498db;
-  background-image: -webkit-linear-gradient(top, #778899, #708090);
+  background: #757575;
+  /*background-image: -webkit-linear-gradient(top, #778899, #708090);
   background-image: -moz-linear-gradient(top, #778899, #708090);
   background-image: -ms-linear-gradient(top, #778899, #708090);
   background-image: -o-linear-gradient(top, #778899, #708090);
-  background-image: linear-gradient(to bottom, #778899, #708090);
+  background-image: linear-gradient(to bottom, #778899, #708090);*/
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
@@ -85,18 +83,19 @@
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  color: white;
 }
 
 .input1:hover
 {
   width: 90%;  
   height: 50px;  
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #bebebe, #778899);
+  background: #424242;
+  /*background-image: -webkit-linear-gradient(top, #bebebe, #778899);
   background-image: -moz-linear-gradient(top, #bebebe, #778899);
   background-image: -ms-linear-gradient(top, #bebebe, #778899);
   background-image: -o-linear-gradient(top, #bebebe, #778899);
-  background-image: linear-gradient(to bottom, #bebebe, #778899);
+  background-image: linear-gradient(to bottom, #bebebe, #778899);*/
   text-decoration: none;
 }
 select
@@ -121,17 +120,17 @@ select:hover
 }
 
 html, body {
-  background-image: url(gradient.jpg);
+  background-image: url(http://updato.com/wp-content/uploads/2016/04/iot.jpg);
   background-attachment: fixed;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-position: center;
   margin: auto;
+  overflow-x: hidden;
 }
 
 .geral{
   min-heght:100%;
-  position:relative; 	
-
+  position:relative;
 }
 
 table { 
@@ -176,7 +175,7 @@ table tr td {
 }
 .tabela{
   width:91%;
-  background:#d3d3d3;
+  background: #F5F5F5;
   border:0;
   max-width:90%;
   -moz-border-radius:7px;
@@ -186,9 +185,8 @@ table tr td {
 
 .tabela1{
   width:91%;
-  background:#d3d3d3;
+  background: #F5F5F5;
   border:0;
-  box-shadow: 5px 5px 10px 5px #000000;
   max-width:90%;
   -moz-border-radius:7px;
   -webkit-border-radius:7px;
@@ -212,12 +210,13 @@ li{
 
 #header{
   width:100%;
-  background:rgba(255, 242, 242, 0.44);
+  background: #212121;
   height:18%;
   margin-top:0%;
   margin-left:0%;
   margin-right:0%;
   text-align: center;
+  opacity: 0.8;
 }
 
 link{
@@ -244,7 +243,7 @@ link{
 }
 
 #content{
-  background: rgba(255, 255, 255, 0.56);
+  background: #9E9E9E;
   /* Largura */
   width:50%;
   height:60%;
@@ -254,6 +253,7 @@ link{
   -moz-border-radius:7px;
   -webkit-border-radius:7px;
   border-radius:7px;
+  opacity: 0.96;
 }
 
 #rodape{
@@ -263,11 +263,20 @@ link{
 }
 
 #rodape2{
-  background: rgba(234, 234, 255, 0.78);
+  background: #424242;
+  opacity: 0.9;
+  padding: 3px;
 }
 
 #pRodape{
-  font-size: 12px;
+  font-size: 16px;
+  color: white;
+}
+
+#s2 {
+  color: red;
+  padding: 0;
+  margin: 0;
 }
 
 img {
@@ -292,7 +301,7 @@ iframe{
   font-family: calibri;
 }
 .box{
-  background:#ffffff;
+  background: #F3E5F5;
   margin:0px auto;
   width: 90%;
 }

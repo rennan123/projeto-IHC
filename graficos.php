@@ -166,6 +166,10 @@ if($_SESSION[validacao] =="1"){
         <br>
       </div>
       <br>
+      <br>
+      <br>
+      <br>
+      <br>
 
       <div id="rodape2">
         <br>
@@ -174,17 +178,9 @@ if($_SESSION[validacao] =="1"){
           <img src="http://i61.tinypic.com/2eeforo.png" border="0" alt="Image and video hosting by TinyPic"><img width="150px" height="80px" src="http://i61.tinypic.com/2ryiudl.jpg" border="0" alt="Image and video hosting by TinyPic"> <img width="150px" height="80px" src="http://i60.tinypic.com/2e3bhjb.jpg" border="0" alt="Image and video hosting by TinyPic"> <img width="80px" height="80px" src="http://i59.tinypic.com/j90y34.png" border="0" alt="Image and video hosting by TinyPic">
 
         </center>
-
-        <footer><font size = 1><center>Desenvolvido por: Miller C&eacute;sar de Oliveira, H-CORE solu&ccedil;&otilde;es em tecnologia de automa&ccedil;&atilde;o e TI 2015, contato <a href="mailto:miller00315@gmail.com">miller00315@gmail.com</a></center></font></footer>
+        <br>
+        <footer id="pRodape"><center>Desenvolvido com <span id="s2">❤</span> por Rennan, Miller, Paulo e Otavio.</center></footer>
       </div>
     </div>
   </body>
 </html>
-
-<?
-}
-else
-{
-echo "<SCRIPT LANGUAGE=\"JavaScript\" TYPE=\"text/javascript\">alert (\"USUARIO INVALIDO!\");window.location.href='index.html';</SCRIPT>";
-}
-?>
