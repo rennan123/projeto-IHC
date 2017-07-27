@@ -1,93 +1,113 @@
 <?
 session_start( );
 if($_SESSION[validacao] =="1"){
-
+}
 ?>
 
 <!DOCTYPE HTML>
 <html>
-  <head>
-    <title>H-CORE AUTOMA&Ccedil;&Atilde;O E TI</title>
+<head>
+  <title>H-CORE AUTOMAÇÃO E TI</title>
 
-    <meta name="viewport" content="">
-    <link rel="stylesheet" type="text/css" href="estilo2.css">
-    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
-    <meta http-equiv="Content-Language" content="pt-br">
-    <meta name="viewport" content="height=device-height">
+  <meta name="viewport" content="">
+  <link rel="stylesheet" type="text/css" href="estilo2.css">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/layout.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 
-    <script type="text/javascript">
-      function camera()
-      {
+  <script type="text/javascript">
+    function camera()
+    {
 
-        window.open("http://192.168.168.57:81");
+      window.open("http://192.168.168.57:81");
 
-      }
+    }
 
-    </script>
+  </script>
 
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <div class="geral">
-      <div id="header">
-        <left><h1 class="cabecalho">H-CORE AUTOMA&Ccedil;&Atilde;O E TI</h1><p class="cabecalho">Utilizando a tecnologia para a melhorar a seguran&ccedil;a, o conforto, a sa&uacute;de e a criatividade humana</a></p></left><br>
+  <section>
+    <div id="header">
+      <h1 class="cabecalho">H-CORE AUTOMAÇÃO E TI</h1>
+      <h6 class="cabecalho">Utilizando a tecnologia para a melhorar a segurança, o conforto, a saúde e a criatividade humana</h6>
     </div>
-    <br>
-    
-    <div id="content">
-    <br>
-      <br>
-      <center>
-        <table class="tabela1">
-          <th>STATUS SENSORES</th>
-          <tr><td>
-            <ul style="list-style-type:none">
-              <p>Temperatura atual: 18°C</p>
-              <p>Umidade do ar: 45%</p>
-              <p>Porta: Fechada</p>
-              <p>Energia gasta (W): 1000</p>
-              <p>Agua gasta (L): 300</p>
-            </ul>
-            </td></tr></table>
-        <br><br>
-        <table class="tabela1">
-          <tr><td><center>
-            <br>
-            <input class ="input1" type=button onClick="location.href='controle.php'"value="Controles">
-            </center><br></td>
+  </section>
 
-            <td><center>
+  <section>
+    <div class="container">
+      <div id="content" class="col-12">
+        <div class="tabela2 col-12">
+          <div class="col-12">
+            <h1>Status dos Sensores</h1>
+            <div id="font20">
               <br>
-              <input class ="input1" type=button onClick="location.href='graficos.php'" value="Graficos">
-              </center>
-              <br>
-            </td></tr>
-        </table>
-      </center>
+              <p>
+                Temperatura atual: 18°C
+                <img id="img-lados-iguais" src="imagens/temperatura.png" alt="temperatura">
+              </p>
+              <p>
+                Luz do quarto: Acessa
+                <img id="img-lados-iguais" src="imagens/luz_acesa.png" alt="luz-acesa">
+              </p>
+              <p>
+                Luz da sala: Apagada
+                <img id="img-lados-iguais" src="imagens/luz_apagada.png" alt="luz-apagada">
+              </p>
+              <p>
+                Porta da frente: Fechada
+              </p>
+              <p>
+                Energia gasta: 1000 Watts
+              </p>
+              <p>
+                Água gasta: 300 Litros
+              </p>
+              <p>
+                Luz da cozinha: Apagada
+              </p>
+              <p>
+                Computador: Ligado
 
-      <br>
-      <hr width=50%>
-      <br>
+              </p>
+              <p>
+                Cafeteira: Ligada
+
+              </p>
+              <p>
+                Som: Desligado
+
+              </p>
+              <p>
+                Televisão da sala: Ligada
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="content" class="col-12">
+        <div class="tabela2 col-12">
+          <input class ="input" type=button onClick="location.href='controle.php'" value="Controles">
+          <input class ="input" type=button onClick="location.href='graficos.php'" value="Gráficos">
+        </div>
+      </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+  </section>
 
+  <section>
     <div id="rodape2">
-      <br>
       <center>
-
-        <img src="http://i61.tinypic.com/2eeforo.png" border="0" alt="Image and video hosting by TinyPic"><img width="150px" height="80px" src="http://i61.tinypic.com/2ryiudl.jpg" border="0" alt="Image and video hosting by TinyPic"> <img width="150px" height="80px" src="http://i60.tinypic.com/2e3bhjb.jpg" border="0" alt="Image and video hosting by TinyPic"> <img width="80px" height="80px" src="http://i59.tinypic.com/j90y34.png" border="0" alt="Image and video hosting by TinyPic">
-
+        <img id="img-space" src="http://i61.tinypic.com/2eeforo.png">
+        <img width="130px" height="90px" src="http://i61.tinypic.com/2ryiudl.jpg">
+        <img width="110px" height="90px" src="imagens/1600.png">
+        <img width="150px" height="90px" src="imagens/linux.png">
       </center>
-
-      <br>
-      <footer id="pRodape"><center>Desenvolvido com <span id="s2">❤</span> por Rennan, Miller, Paulo e Otavio.</center></footer>
+      <footer id="pRodape"><center>Desenvolvido por Rennan, Miller, Paulo e Otavio.</center></footer>
     </div>
-    </div>
-  </body>
-<meta HTTP-EQUIV='refresh' CONTENT='10'>
+  </section>
+</body>
 </html>

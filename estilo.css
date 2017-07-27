@@ -1,5 +1,16 @@
-.input  {
-  width: 100%;  
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(imagens/internet-das-coisas-iot.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.input{
   height: 50px;  
   background: #3498db;
   -webkit-border-radius: 28;
@@ -13,44 +24,35 @@
   text-decoration: none;
 }
 
-
-
-.red
-{
-  background-color:#ff3300;
-}
-
-.green
-{
-  color:#00ff00;
-}
-
-.blue
-{
-  background-color:#9fb8d2;
-}
-
 #titulo{
+  padding-top: 20px;
   font-size: 30px;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  border: none;
   font-family: 'Orbitron', sans-serif;
-  color: rgba(255,255,255,1);
-  -o-text-overflow: ellipsis;
-  text-overflow: ellipsis;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#subtitulo{
-  font-size: 15px;
-  color: rgb(255, 255, 255)
+#btn-space {
+  margin-top: 10px;
+  margin-left: 73px;
 }
 
-.t
-{
-  color:#ffffff;
-  
+#img-space {
+  padding-right: 10px;
+}
+
+#subtitulo {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#formulario {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
 }
 
 .input:hover
@@ -120,25 +122,12 @@ select:hover
   text-decoration: none;
 }
 
-html, body {
-  background-image: url(http://energiainteligenteufjf.com/wp-content/uploads/2016/12/internet-das-coisas-iot.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.geral{
-  min-heght:100%;
-  position:relative; 	
-
-}
-
 table { 
   border:1px solid #000000;
 }
 
-table tr td { 
-  border:0;
+table tr td {
+  border: 0;
 }
 
 .input2{
@@ -153,11 +142,11 @@ table tr td {
 }
 
 .input4{
-  object-position: center;
-  width:49%;
+  width: 100%;
 }
+
 .input4:hover{
-  width:49%;
+  width: 100%;
 }
 .cabecalho{
   top: 0px;	
@@ -172,10 +161,7 @@ table tr td {
 
 }
 .tabela{
-  width:91%;
   background:#d3d3d3;
-  border:0;
-  max-width:90%;
   -moz-border-radius:7px;
   -webkit-border-radius:7px;
   border-radius:7px;
@@ -206,10 +192,17 @@ li{
   color:#ffffff;
 }
 
+h1 {
+  text-align: center;
+}
+
+#center{
+  text-align: center;
+}
 
 #header{
-  visibility: hidden
-    width:100%;
+  visibility: hidden;
+  width:100%;
   background:#BDBDBD;
   height:18%;
   margin-top:0%;
@@ -242,25 +235,25 @@ link{
 
 #content{
   background: rgba(36, 36, 41, 0.95);
-  /* Largura */
-  width:50%;
-  height:60%;
-  margin-top: 6%;
-  margin-left:25.5%;
-  margin-right:25.5%;
+  width: 70vw;
   -moz-border-radius:7px;
   -webkit-border-radius:7px;
   border-radius:7px;
 }
 
-#rodape{
-  width:100%;
-  bottom:0;
-  color: #ffffff;
+#barra {
+  color: white;
+  width: 70%;
+  margin: 30px auto;
+  background-color: white;
 }
 
 #pRodape{
+  text-align: center;
+  color: white;
   font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 img {
@@ -301,52 +294,4 @@ a:link{
 select{
   width: 110px;
   font-size: 15px;
-}
-
-/* Tooltip container */
-.tooltip {
-  color: white;
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted white; /* Sublinhado ponteado */
-}
-
-/* Texto do tooltip */
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 270px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-
-  /* Posiciona o texto do tooltip */
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -60px;
-
-  /* Fade in tooltip */
-  opacity: 0;
-  transition: opacity 1s;
-}
-
-/* Seta do tooltip */
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
-
-/* Exibe o tooltip quando passa o mouse sobre*/
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
 }
