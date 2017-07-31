@@ -117,7 +117,7 @@ if($_SESSION[validacao] =="1"){
             <input class="input" type ="button" onClick="location.href='relatorio.php'" value="Informação">
           </div>
           <div class="col-6">
-            <input class ="input" type="button" onClick="location.href='logoff.php'" value="Sair">
+            <input class ="input" type="button" onClick="location.href='index.html'" value="Sair">
           </div>
         </div>
       </div>
